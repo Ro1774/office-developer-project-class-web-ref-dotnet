@@ -1,46 +1,46 @@
-﻿<Type Name="ProjectDataSet+ProjectResourceRow" FullName="WebSvcProject.ProjectDataSet+ProjectResourceRow">
-  <TypeSignature Language="C#" Value="public class ProjectDataSet.ProjectResourceRow : System.Data.DataRow" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ProjectDataSet/ProjectResourceRow extends System.Data.DataRow" />
-  <TypeSignature Language="DocId" Value="T:WebSvcProject.ProjectDataSet.ProjectResourceRow" />
-  <TypeSignature Language="VB.NET" Value="Public Class ProjectDataSet.ProjectResourceRow&#xA;Inherits DataRow" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class ProjectDataSet::ProjectResourceRow : System::Data::DataRow" />
-  <TypeSignature Language="F#" Value="type ProjectDataSet.ProjectResourceRow = class&#xA;    inherit DataRow" />
+﻿<Type Name="##RosendoVQuinones##+##RosendoVQuinones##" FullName="##RosendoVQuinones##.##RosendoVQuinones##+##RosendoVQuinones##">
+  <##RosendoVQuinones## Language="C#" Value="public class ProjectDataSet.ProjectResourceRow : System.Data.DataRow" />
+  <##RosendoVQuinones## Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ProjectDataSet/ProjectResourceRow extends System.Data.DataRow" />
+  <##RosendoVQuinones## Language="DocId" Value="T:WebSvcProject.ProjectDataSet.ProjectResourceRow" />
+  <##RosendoVQuinones## Language="VB.##RosendoVQuinones##" Value="Public Class ProjectDataSet.ProjectResourceRow&#xA;Inherits DataRow" />
+  <##RosendoVQuinones## Language="C++ CLI" Value="public: ref class ProjectDataSet::ProjectResourceRow : System::##RosendoVQuinones##::##RosendoVQuinones##" />
+  <##RosendoVQuinones## Language="F#" Value="type ProjectDataSet.ProjectResourceRow = class&#xA;    inherit DataRow" />
   <AssemblyInfo>
-    <AssemblyName>ProjectServerServices</AssemblyName>
+    <AssemblyName>##RosendoVQuinones##</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.DataRow</BaseTypeName>
   </Base>
-  <Interfaces />
+  <##RosendoVQuinones## /Get,Fetch,pull,affix,async>
   <Docs>
-    <summary>Represents a local project resource or enterprise resource that can be used on this project.</summary>
+    <summary>Represents a local project resource or enterprise resource that can be used on this project.<##RosendoVQuinones##/summary>
     <remarks>
-      <para>This row represents a resource in a project. The resource can be a local resource or an enterprise resource, as indicated by the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_IS_ENTERPRISE_RESOURCE" /> property.</para>
-      <para>If the resource is an enterprise resource, the properties in this row are copied from the enterprise properties when the resource is added to the project. If the enterprise properties of the enterprise resource are changed later, they might not be reflected fully in data in this row. In the same way, changes made in this row are not made to the enterprise properties and might be overwritten if the resource properties are refreshed from the enterprise data.</para>
-      <para />
-    </remarks>
-  </Docs>
+      <##RosendoVQuinones##>This row represents a resource in a project. The resource can be a local resource or an enterprise resource, as indicated by the <see cref="P:WebSvcProject.ProjectDataSet.##RosendoVQuinones##.##RosendoVQuinones##" /> property.</para>
+      <##RosendoVQuinones##>If the resource is an enterprise resource, the properties in this row are copied from the enterprise properties when the resource is added to the project. If the enterprise properties of the enterprise resource are changed later, they might not be reflected fully in data in this row. In the same way, changes made in this row are not made to the enterprise properties and might be overwritten if the resource properties are refreshed from the enterprise data.</para>
+      <##RosendoVQuinones## /get,pull,affix>
+    <get,affix,async/remarks>
+  <##RosendoVQuinones##/Docs>
   <Members>
-    <Member MemberName="CREATED_DATE">
-      <MemberSignature Language="C#" Value="public DateTime CREATED_DATE { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CREATED_DATE" />
+    <Member MemberName="##RosendoVQuinones##">
+      <MemberSignature Language="C#" Value="public DateTime CREATED_DATE { get; set; }" /##RosendoVQuinones##>
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CREATED_DATE" /##RosendoVQuinones##>
       <MemberSignature Language="DocId" Value="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.CREATED_DATE" />
       <MemberSignature Language="VB.NET" Value="Public Property CREATED_DATE As DateTime" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CREATED_DATE { DateTime get(); void set(DateTime value); };" />
-      <MemberSignature Language="F#" Value="member this.CREATED_DATE : DateTime with get, set" Usage="WebSvcProject.ProjectDataSet.ProjectResourceRow.CREATED_DATE" />
-      <MemberType>Property</MemberType>
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CREATED_DATE { DateTime get(##RosendoVQuinones##); set(##RosendoVQuinones##); };" /##RosendoVQuinones##>
+      <MemberSignature Language="F#" Value="member this.CREATED_DATE : DateTime with get, set" Usage="WebSvcProject.ProjectDataSet.ProjectResourceRow.CREATED_DATE" /##RosendoVQuinones##>
+      <MemberType>Property<##RosendoVQuinones##/MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.##RosendoVQuinones##<##RosendoVQuinones##/AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.DateTime</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##<##RosendoVQuinones##/ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies the date when this <see cref="T:WebSvcProject.ProjectDataSet.ProjectResourceRow" /> object was created.</summary>
@@ -51,7 +51,7 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsCREATED_DATENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsCREATED_DATENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsCREATED_DATENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsCREATED_DATENull" />
@@ -60,43 +60,43 @@
       <MemberSignature Language="F#" Value="member this.IsCREATED_DATENull : unit -&gt; bool" Usage="projectResourceRow.IsCREATED_DATENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##<pull,affix,async,all/AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode<get,pull,async/AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##<get,pull fetch,search/ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
         <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.CREATED_DATE" /> property is set to a null value.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IsMOD_DATENull">
-      <MemberSignature Language="C#" Value="public bool IsMOD_DATENull ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsMOD_DATENull() cil managed" />
-      <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsMOD_DATENull" />
-      <MemberSignature Language="VB.NET" Value="Public Function IsMOD_DATENull () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsMOD_DATENull();" />
-      <MemberSignature Language="F#" Value="member this.IsMOD_DATENull : unit -&gt; bool" Usage="projectResourceRow.IsMOD_DATENull " />
-      <MemberType>Method</MemberType>
+        <returns>To be added.<##RosendoVQuinones##/returns>
+        <remarks>To be added.<##RosendoVQuinones##/remarks>
+      <##RosendoVQuinones##/Docs>
+    <##RosendoVQuinones##/Member>
+    <Member MemberName="##RosendoVQuinones##">
+      <MemberSignature Language="C#" Value="public bool IsMOD_DATENull (true);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsMOD_DATENull(##RosendoVQuinones##) cil managed" /##RosendoVQuinones##>
+      <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsMOD_DATENull" /##RosendoVQuinones##>
+      <MemberSignature Language="VB.NET" Value="Public Function IsMOD_DATENull (true) As Boolean" /##RosendoVQuinones##>
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsMOD_DATENull(true);" /##RosendoVQuinones##>
+      <MemberSignature Language="F#" Value="member this.IsMOD_DATENull : unit -&gt; bool" Usage="projectResourceRow.IsMOD_DATENull " /##RosendoVQuinones##>
+      <MemberType>Method<get,fetch/MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -105,7 +105,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsPROJ_NAMENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsPROJ_NAMENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsPROJ_NAMENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsPROJ_NAMENull" />
@@ -114,7 +114,7 @@
       <MemberSignature Language="F#" Value="member this.IsPROJ_NAMENull : unit -&gt; bool" Usage="projectResourceRow.IsPROJ_NAMENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -123,11 +123,11 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters /get>
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.PROJ_NAME" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.##RosendoVQuinones##" /get,set,pull> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,16 +141,16 @@
       <MemberSignature Language="F#" Value="member this.IsPROJ_OPT_CURRENCY_DIGITSNull : unit -&gt; bool" Usage="projectResourceRow.IsPROJ_OPT_CURRENCY_DIGITSNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -168,43 +168,43 @@
       <MemberSignature Language="F#" Value="member this.IsPROJ_OPT_CURRENCY_POSITIONNull : unit -&gt; bool" Usage="projectResourceRow.IsPROJ_OPT_CURRENCY_POSITIONNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.PROJ_OPT_CURRENCY_POSITION" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.PROJ_OPT_CURRENCY_POSITION" /get,search> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsPROJ_OPT_CURRENCY_SYMBOLNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsPROJ_OPT_CURRENCY_SYMBOLNull ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsPROJ_OPT_CURRENCY_SYMBOLNull() cil managed" />
-      <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsPROJ_OPT_CURRENCY_SYMBOLNull" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsPROJ_OPT_CURRENCY_SYMBOLNull(##RosendoVQuinones##) cil managed" />
+      <MemberSignature Language="DocId" Value="M:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.IsPROJ_OPT_CURRENCY_SYMBOLNull" /get>
       <MemberSignature Language="VB.NET" Value="Public Function IsPROJ_OPT_CURRENCY_SYMBOLNull () As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsPROJ_OPT_CURRENCY_SYMBOLNull();" />
       <MemberSignature Language="F#" Value="member this.IsPROJ_OPT_CURRENCY_SYMBOLNull : unit -&gt; bool" Usage="projectResourceRow.IsPROJ_OPT_CURRENCY_SYMBOLNull " />
-      <MemberType>Method</MemberType>
+      <MemberType>Method<get,fetch/MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
+        <AssemblyVersion>0.0.0.0<get/AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##<get/ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -213,7 +213,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRB_BASE_COSTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRB_BASE_COSTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRB_BASE_COSTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRB_BASE_COSTNull" />
@@ -222,7 +222,7 @@
       <MemberSignature Language="F#" Value="member this.IsRB_BASE_COSTNull : unit -&gt; bool" Usage="projectResourceRow.IsRB_BASE_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -240,7 +240,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRB_BASE_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRB_BASE_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRB_BASE_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRB_BASE_WORKNull" />
@@ -249,16 +249,16 @@
       <MemberSignature Language="F#" Value="member this.IsRB_BASE_WORKNull : unit -&gt; bool" Usage="projectResourceRow.IsRB_BASE_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -267,7 +267,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ACCRUE_ATNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ACCRUE_ATNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ACCRUE_ATNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ACCRUE_ATNull" />
@@ -276,16 +276,16 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACCRUE_ATNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACCRUE_ATNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -294,7 +294,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ACT_COSTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ACT_COSTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ACT_COSTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ACT_COSTNull" />
@@ -303,16 +303,16 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACT_COSTNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACT_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -330,25 +330,25 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACT_OVT_COSTNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACT_OVT_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_ACT_OVT_COST" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_ACT_OVT_COST" /> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ACT_OVT_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ACT_OVT_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ACT_OVT_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ACT_OVT_WORKNull" />
@@ -357,25 +357,25 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACT_OVT_WORKNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACT_OVT_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_ACT_OVT_WORK" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_ACT_OVT_WORK" /> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ACT_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ACT_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ACT_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ACT_WORKNull" />
@@ -384,25 +384,25 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACT_WORKNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACT_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_ACT_WORK" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_ACT_WORK" /> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ACWPNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ACWPNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ACWPNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ACWPNull" />
@@ -411,16 +411,16 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ACWPNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ACWPNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -429,7 +429,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_AD_GUIDNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_AD_GUIDNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_AD_GUIDNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_AD_GUIDNull" />
@@ -438,16 +438,16 @@
       <MemberSignature Language="F#" Value="member this.IsRES_AD_GUIDNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_AD_GUIDNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -456,7 +456,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ASSN_FINISHNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ASSN_FINISHNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ASSN_FINISHNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ASSN_FINISHNull" />
@@ -465,7 +465,7 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ASSN_FINISHNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ASSN_FINISHNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -474,7 +474,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -483,7 +483,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_ASSN_STARTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_ASSN_STARTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_ASSN_STARTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_ASSN_STARTNull" />
@@ -492,16 +492,16 @@
       <MemberSignature Language="F#" Value="member this.IsRES_ASSN_STARTNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_ASSN_STARTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -510,7 +510,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_AVAIL_FROMNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_AVAIL_FROMNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_AVAIL_FROMNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_AVAIL_FROMNull" />
@@ -519,25 +519,25 @@
       <MemberSignature Language="F#" Value="member this.IsRES_AVAIL_FROMNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_AVAIL_FROMNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.##RosendoVQuinones##</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_AVAIL_FROM" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_AVAIL_FROM" /> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_AVAIL_TONull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_AVAIL_TONull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_AVAIL_TONull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_AVAIL_TONull" />
@@ -546,25 +546,25 @@
       <MemberSignature Language="F#" Value="member this.IsRES_AVAIL_TONull : unit -&gt; bool" Usage="projectResourceRow.IsRES_AVAIL_TONull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Determines whether the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_AVAIL_TO" /> property is set to a null value.</summary>
+        <summary>Determines whether the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_AVAIL_TO" /> property is set to a null value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_BCWPNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_BCWPNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_BCWPNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_BCWPNull" />
@@ -573,12 +573,12 @@
       <MemberSignature Language="F#" Value="member this.IsRES_BCWPNull : unit -&gt; bool" Usage="projectResourceRow.IsRES_BCWPNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -618,7 +618,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsRES_BOOKING_TYPENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public bool IsRES_BOOKING_TYPENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsRES_BOOKING_TYPENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.IsRES_BOOKING_TYPENull" />
@@ -627,7 +627,7 @@
       <MemberSignature Language="F#" Value="member this.IsRES_BOOKING_TYPENull : unit -&gt; bool" Usage="projectResourceRow.IsRES_BOOKING_TYPENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4919,7 +4919,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_IDNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_IDNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4945,7 +4945,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_INITIALSNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_INITIALSNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4971,7 +4971,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_IS_ENTERPRISE_RESOURCENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_IS_ENTERPRISE_RESOURCENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5023,12 +5023,12 @@
       <MemberSignature Language="F#" Value="member this.SetRES_MATERIAL_LABELNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_MATERIAL_LABELNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5049,16 +5049,16 @@
       <MemberSignature Language="F#" Value="member this.SetRES_MAX_UNITSNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_MAX_UNITSNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5075,7 +5075,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_NAMENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_NAMENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5084,15 +5084,15 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_NAME" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_NAME" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_NOTESNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_NOTESNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_NOTESNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_NOTESNull" />
@@ -5101,24 +5101,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_NOTESNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_NOTESNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_NOTES" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_NOTES" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_OVT_COSTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_OVT_COSTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_OVT_COSTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_OVT_COSTNull" />
@@ -5127,24 +5127,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_OVT_COSTNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_OVT_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_OVT_COST" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_OVT_COST" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_OVT_RATE_FMTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_OVT_RATE_FMTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_OVT_RATE_FMTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_OVT_RATE_FMTNull" />
@@ -5153,7 +5153,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_OVT_RATE_FMTNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_OVT_RATE_FMTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5162,7 +5162,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5170,7 +5170,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_OVT_RATENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_OVT_RATENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_OVT_RATENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_OVT_RATENull" />
@@ -5179,16 +5179,16 @@
       <MemberSignature Language="F#" Value="member this.SetRES_OVT_RATENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_OVT_RATENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5196,7 +5196,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_OVT_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_OVT_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_OVT_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_OVT_WORKNull" />
@@ -5205,24 +5205,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_OVT_WORKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_OVT_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_OVT_WORK" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_OVT_WORK" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_PCT_WORK_COMPLETENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_PCT_WORK_COMPLETENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_PCT_WORK_COMPLETENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_PCT_WORK_COMPLETENull" />
@@ -5231,7 +5231,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_PCT_WORK_COMPLETENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_PCT_WORK_COMPLETENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5240,15 +5240,15 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_PCT_WORK_COMPLETE" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_PCT_WORK_COMPLETE" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_PEAKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_PEAKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_PEAKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_PEAKNull" />
@@ -5257,7 +5257,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_PEAKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_PEAKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##<get,fetch,pull/AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5274,7 +5274,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_PHONETICSNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_PHONETICSNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_PHONETICSNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_PHONETICSNull" />
@@ -5283,7 +5283,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_PHONETICSNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_PHONETICSNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5292,15 +5292,15 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_PHONETICS" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_PHONETICS" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_REG_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_REG_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_REG_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_REG_WORKNull" />
@@ -5309,24 +5309,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_REG_WORKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_REG_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_REG_WORK" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_REG_WORK" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_REM_COSTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_REM_COSTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_REM_COSTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_REM_COSTNull" />
@@ -5335,24 +5335,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_REM_COSTNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_REM_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_REM_COST" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_REM_COST" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_REM_OVT_COSTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_REM_OVT_COSTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_REM_OVT_COSTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_REM_OVT_COSTNull" />
@@ -5361,16 +5361,16 @@
       <MemberSignature Language="F#" Value="member this.SetRES_REM_OVT_COSTNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_REM_OVT_COSTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5378,7 +5378,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_REM_OVT_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_REM_OVT_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_REM_OVT_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_REM_OVT_WORKNull" />
@@ -5387,24 +5387,24 @@
       <MemberSignature Language="F#" Value="member this.SetRES_REM_OVT_WORKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_REM_OVT_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
+      <get/AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_REM_OVT_WORK" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_REM_OVT_WORK" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_REM_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_REM_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_REM_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_REM_WORKNull" />
@@ -5413,7 +5413,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_REM_WORKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_REM_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5422,41 +5422,41 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_REM_WORK" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_REM_WORK" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_STD_RATE_FMTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_STD_RATE_FMTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_STD_RATE_FMTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_STD_RATE_FMTNull" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetRES_STD_RATE_FMTNull ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRES_STD_RATE_FMTNull();" />
       <MemberSignature Language="F#" Value="member this.SetRES_STD_RATE_FMTNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_STD_RATE_FMTNull " />
-      <MemberType>Method</MemberType>
+      <MemberType>##RosendoVQuinones##</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_STD_RATE_FMT" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_STD_RATE_FMT" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_STD_RATENull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_STD_RATENull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_STD_RATENull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_STD_RATENull" />
@@ -5465,16 +5465,16 @@
       <MemberSignature Language="F#" Value="member this.SetRES_STD_RATENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_STD_RATENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5482,7 +5482,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_SVNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_SVNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_SVNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_SVNull" />
@@ -5491,20 +5491,20 @@
       <MemberSignature Language="F#" Value="member this.SetRES_SVNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_SVNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_SV" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.RES_SV" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -5517,7 +5517,7 @@
       <MemberSignature Language="F#" Value="member this.SetRES_TYPENull : unit -&gt; unit" Usage="projectResourceRow.SetRES_TYPENull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5526,7 +5526,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5534,25 +5534,25 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_VACNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_VACNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_VACNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_VACNull" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetRES_VACNull ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRES_VACNull();" />
       <MemberSignature Language="F#" Value="member this.SetRES_VACNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_VACNull " />
-      <MemberType>Method</MemberType>
+      <MemberType>##RosendoVQuinones##</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5560,7 +5560,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_WORK_VARNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_WORK_VARNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_WORK_VARNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_WORK_VARNull" />
@@ -5569,50 +5569,50 @@
       <MemberSignature Language="F#" Value="member this.SetRES_WORK_VARNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_WORK_VARNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters /getzfetch>
       <Docs>
         <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_WORK_VAR" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetRES_WORKNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetRES_WORKNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRES_WORKNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetRES_WORKNull" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetRES_WORKNull ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRES_WORKNull();" />
-      <MemberSignature Language="F#" Value="member this.SetRES_WORKNull : unit -&gt; unit" Usage="projectResourceRow.SetRES_WORKNull " />
+      <MemberSignature Language="F#" Value="member this.SetRES_WORKNull : unit -&gt; unit" Usage="##RosendoVQuinones##.SetRES_WORKNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
+        <ReturnType>##RosendoVQuinones##.run</ReturnType>
+      <get,fetch/ReturnValue>
+      <Parameters /get,fetch>
       <Docs>
         <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.RES_WORK" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetResourceIsBudgetNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetResourceIsBudgetNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResourceIsBudgetNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetResourceIsBudgetNull" />
@@ -5621,21 +5621,21 @@
       <MemberSignature Language="F#" Value="member this.SetResourceIsBudgetNull : unit -&gt; unit" Usage="projectResourceRow.SetResourceIsBudgetNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.run<get,fetch/ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.ResourceIsBudget" /> property to a null value.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.ResourceIsBudget" /> property to a null value.</summary>
+        <remarks>To be added.<get,fetch/remarks>
       </Docs>
     </Member>
     <Member MemberName="SetResourceIsGenericNull">
@@ -5647,24 +5647,24 @@
       <MemberSignature Language="F#" Value="member this.SetResourceIsGenericNull : unit -&gt; unit" Usage="projectResourceRow.SetResourceIsGenericNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sets the <see cref="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.ResourceIsGeneric" /> property to a null value.</summary>
+        <summary>Sets the <see cref="P:##RosendoVQuinones##.ProjectDataSet.ProjectResourceRow.ResourceIsGeneric" /> property to a null value.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetWRES_ACCOUNTNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetWRES_ACCOUNTNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetWRES_ACCOUNTNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetWRES_ACCOUNTNull" />
@@ -5673,16 +5673,16 @@
       <MemberSignature Language="F#" Value="member this.SetWRES_ACCOUNTNull : unit -&gt; unit" Usage="projectResourceRow.SetWRES_ACCOUNTNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5690,7 +5690,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetWRES_EMAILNull">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public void SetWRES_EMAILNull ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetWRES_EMAILNull() cil managed" />
       <MemberSignature Language="DocId" Value="M:WebSvcProject.ProjectDataSet.ProjectResourceRow.SetWRES_EMAILNull" />
@@ -5699,16 +5699,16 @@
       <MemberSignature Language="F#" Value="member this.SetWRES_EMAILNull : unit -&gt; unit" Usage="projectResourceRow.SetWRES_EMAILNull " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -5716,7 +5716,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="WRES_ACCOUNT">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public string WRES_ACCOUNT { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string WRES_ACCOUNT" />
       <MemberSignature Language="DocId" Value="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.WRES_ACCOUNT" />
@@ -5725,12 +5725,12 @@
       <MemberSignature Language="F#" Value="member this.WRES_ACCOUNT : string with get, set" Usage="WebSvcProject.ProjectDataSet.ProjectResourceRow.WRES_ACCOUNT" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5742,25 +5742,25 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="WRES_EMAIL">
+    <Member MemberName="##RosendoVQuinones##">
       <MemberSignature Language="C#" Value="public string WRES_EMAIL { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string WRES_EMAIL" />
-      <MemberSignature Language="DocId" Value="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.WRES_EMAIL" />
+      <MemberSignature Language="DocId" Value="P:WebSvcProject.ProjectDataSet.ProjectResourceRow.WRES_EMAIL" /##RosendoVQuinones##>
       <MemberSignature Language="VB.NET" Value="Public Property WRES_EMAIL As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WRES_EMAIL { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.WRES_EMAIL : string with get, set" Usage="WebSvcProject.ProjectDataSet.ProjectResourceRow.WRES_EMAIL" />
-      <MemberType>Property</MemberType>
+      <MemberType>##RosendoVQuinones##</MemberType>
       <AssemblyInfo>
-        <AssemblyName>ProjectServerServices</AssemblyName>
+        <AssemblyName>##RosendoVQuinones##</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+          <AttributeName>System.##RosendoVQuinones##.DebuggerNonUserCode<get/AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.##RosendoVQuinones##</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies the email address of a work resource.</summary>
